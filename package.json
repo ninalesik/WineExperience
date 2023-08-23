@@ -1,0 +1,36 @@
+{
+  "name": "tati",
+  "version": "1.0.0",
+  "description": "Dev",
+  "main": "dev",
+  "scripts": {
+    "test": "npm i"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-verb": "^0.3.0",
+    "gulp-webp": "^4.0.1",
+    "install": "^0.13.0",
+    "node-sass": "^8.0.0",
+    "npm": "^9.8.1",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "gulp-avif": "^1.0.1",
+    "gulp-babel": "^8.0.0",
+    "swiper": "^7.4.1"
+  }
+}
