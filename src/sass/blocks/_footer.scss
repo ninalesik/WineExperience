@@ -56,28 +56,28 @@
         margin-bottom: 40px;
         }
     }
-    &__tel{
-        margin-bottom: 10px;
-        position: relative;
-        &::after{
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 50px;
-            height: 1px;
-            width: 0;
-            transform: translateX(-50%);
-            background: $main-color;
-            transition: width 0.3s ease;
-            &:hover{
-                &::after{
-                    width: 100%;
-                    transition: width 0.3s ease;
-            }
-        }
-        }
+&__tel {
+    margin-bottom: 10px;
+    position: relative;
 
-    }
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 55px;
+        height: 1px;
+        width: 0;
+        transform: translateX(-45%);
+        background: $main-color;
+        transition: width 0.3s ease;
+}
+&:hover {
+            &::after{
+            width: 100%;
+            transition: width 0.3s ease;}
+        }
+    
+}
 &__email{
     position: relative;
     margin-bottom: 10px;
@@ -85,18 +85,19 @@
         content: '';
         position: absolute;
         bottom: -2px;
-        left: 50px;
+        left: 70px;
         height: 1px;
         width: 0;
-        transform: translateX(-50%);
+        transform: translateX(-40%);
         background: $main-color;
         transition: width 0.3s ease;
-        &:hover{
+    }
+&:hover{
             &::after{
                 width: 100%;
                 transition: width 0.3s ease;
         }
     }
-    }
+    
 }
 }
