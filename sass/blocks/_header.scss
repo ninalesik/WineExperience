@@ -1,0 +1,17 @@
+header{
+    padding: 48px 0;
+    display: flex;
+justify-content: center;
+    &__logo {
+        height: 56px;
+        @include xs{
+            height: auto;
+        }
+
+    }
+
+    img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+}
